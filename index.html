@@ -10,6 +10,7 @@
     <link rel="shortcut icon" href="images/favicon/globe.svg" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML" async></script>
   </head>
 
   <body>
@@ -81,7 +82,9 @@
                 </script>
               </td>
               <td style="padding:20px;width:75%;vertical-align:middle">
-                <span class="papertitle">XVO: Generalized Visual Odometry via Cross-Modal Self-Training</span>
+                <a href="https://genxvo.github.io/">
+                  <span class="papertitle">XVO: Generalized Visual Odometry via Cross-Modal Self-Training</span>
+                </a>
                 <br>
                 <strong>Lei Lai*</strong>,
                 <a href="https://www.linkedin.com/in/zhongkai-leon-shangguan-52b465152">Zhongkai Shangguan*</a>,
@@ -124,7 +127,9 @@
                 </script>
               </td>
               <td style="padding:20px;width:75%;vertical-align:middle">
-                <span class="papertitle">Monotone submodular maximization over the bounded integer lattice with cardinality constraints</span>
+                <a href="https://www.worldscientific.com/doi/abs/10.1142/S1793830919500757">
+                  <span class="papertitle">Monotone submodular maximization over the bounded integer lattice with cardinality constraints</span>
+                </a>
                 <br>
                 <strong>Lei Lai</strong>,
                 Qiufen Ni,
@@ -139,7 +144,8 @@
                 <a href="https://genxvo.github.io/">project page</a> -->
                 <p></p>
                 <p>
-                  We propose XVO, a semi-supervised learning method for training generalized monocular Visual Odometry (VO) models with robust off-the-shelf operation across diverse datasets and settings. We empirically demonstrate the benefits of semi-supervised training for learning a general-purpose direct VO regression network. Moreover, we demonstrate multi-modal supervision, including segmentation, flow, depth, and audio auxiliary prediction tasks, to facilitate generalized representations for the VO task.
+                  We consider the problem of maximizing monotone submodular function over the bounded integer lattice with a cardinality constraint. Function \( f:\mathbb{Z}_+^E\rightarrow R_+ \) is submodular over integer lattice if $f(\vec{x})+f(\vec{y})\ge f(\vec{x}\vee\vec{y})+f(\vec{x}\wedge\vec{y})$, $\forall\ \vec{x},\vec{y}\in\mathbb{Z}_+^E$, where $\vee$ and $\wedge$ represent elementwise
+maximum and minimum respectively. Let $\vec{B}\in\mathbb{Z}_+^E$, and $k\in \mathbb{Z}_+$, we study the problem of maximizing submodular function $f(\vec{x})$ with constraints $\vec{0}\le \vec{x}\le\vec{B}$ and $\vec{x}(\mathbb{E})\le k$. A random greedy $\left(1-\frac{1}{e}\right)$-approximation algorithm and a deterministic $\frac{1}{e}$-approximation algorithm are proposed in this paper. Both algorithms work in value oracle model. In the random greedy algorithm, we assume the monotone submodular function satisfies diminishing return property, which is not an equivalent definition of submodularity on integer lattice. Additionally, our random greedy algorithm makes $\mathcal{O}((|\mathbb{E}|+1)\cdot k)$ value oracle queries and deterministic algorithm makes $\mathcal{O}(|\mathbb{E}|\cdot B\cdot k^3)$ value oracle queries.
                 </p>
               </td>
             </tr>

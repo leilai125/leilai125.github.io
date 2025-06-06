@@ -65,6 +65,52 @@
               <td style="padding:20px;width:25%;vertical-align:middle">
                 <div class="one">
                   <div class="two" id='nuvo_image'><video  width=100% muted autoplay loop>
+                  <source src="images/zvo.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+                  </video></div>
+                  <img src='images/zvo.jpg' width=100%>
+                </div>
+                <script type="text/javascript">
+                  function nuvo_start() {
+                    document.getElementById('nuvo_image').style.opacity = "1";
+                  }
+        
+                  function nuvo_stop() {
+                    document.getElementById('nuvo_image').style.opacity = "0";
+                  }
+                  nuvo_stop()
+                </script>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://infdriver.github.io/">
+                  <span class="papertitle">Uncertainty-Guided Never-Ending Learning to Drive</span>
+                </a>
+                <br>
+                <strong>Lei Lai</strong>,
+                <a href="https://eshed1.github.io/">Eshed Ohn-Bar</a>,
+                Sanjay Arora,
+                <a href="https://johnsk95.github.io/">John Seon Keun Yi</a>
+    
+                <br>
+                <em>Conference on Computer Vision and Pattern Recognition (CVPR)</em>, 2024
+                <br>
+                <a href="https://zvocvpr.github.io/">project page</a>
+                /
+                <a href="https://leilai125.github.io/papers/zvo.pdf">paper</a>
+                <p></p>
+                <p>
+                  We present a highly scalable self-training framework for incrementally adapting vision-based end-to-end autonomous driving policies in a semi-supervised manner, i.e., over a continual stream of incoming video data. To facilitate large-scale model training (e.g., open web or unlabeled data), we do not assume access to ground-truth labels and instead estimate pseudo-label policy targets for each video. Our framework comprises three key components: knowledge distillation, a sample purification module, and an exploration and knowledge retention mechanism. Trained as a complete never-ending learning system, we demonstrate state-of-the-art performance on training from domain-changing data as well as millions of images from the open web. 
+                </p>
+              </td>
+            </tr>
+          </tbody></table>
+
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr onmouseout="nuvo_stop()" onmouseover="nuvo_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='nuvo_image'><video  width=100% muted autoplay loop>
                   <source src="images/InfDriver_gif.mp4" type="video/mp4">
                   Your browser does not support the video tag.
                   </video></div>

@@ -104,6 +104,51 @@
           </tbody></table>
 
 
+          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+            <tr onmouseout="nuvo_stop()" onmouseover="nuvo_start()">
+              <td style="padding:20px;width:25%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='nuvo_image'><video  width=100% muted autoplay loop>
+                  <source src="images/BranchOut.gif" type="video/gif">
+                  Your browser does not support the video tag.
+                  </video></div>
+                  <!-- <img src='images/zvo.jpg' width=100%> -->
+                </div>
+                <script type="text/javascript">
+                  function nuvo_start() {
+                    document.getElementById('nuvo_image').style.opacity = "1";
+                  }
+        
+                  function nuvo_stop() {
+                    document.getElementById('nuvo_image').style.opacity = "0";
+                  }
+                  nuvo_stop()
+                </script>
+              </td>
+              <td style="padding:20px;width:75%;vertical-align:middle">
+                <a href="https://branchoutcorl.github.io/">
+                  <span class="papertitle">BranchOut: Capturing Realistic Multimodality in Autonomous Driving Decisions</span>
+                </a>
+                <br>
+                <a href="https://hee-jae-kim.github.io/">Hee Jae Kim</a>,
+                <a href="https://zekai-yin.github.io/">Zekai Yin</a>,
+                <strong>Lei Lai</strong>,
+                <a href="https://jasonlee328.github.io/">Jason Lee</a>,
+                <a href="https://eshed1.github.io/">Eshed Ohn-Bar</a>
+    
+                <br>
+                <em>Conference on Robot Learning (CoRL)</em>, 2025
+                <br>
+                <a href="https://branchoutcorl.github.io/">project page</a>
+                /
+                <a href="https://openreview.net/pdf/8a87e7f37431a21394eac9a184d3461226abe4c7.pdf">paper</a>
+                <p></p>
+                <p>
+                  We introduce BranchOut, a GMM-based diffusion planner and multimodal benchmark, towards the goal of modeling and evaluating realistic, human-like decision-making in autonomous driving. To support this, we develop a human-in-the-loop, photorealistic simulation framework that enables scalable collection of diverse, reactive trajectories and facilitates fine-grained, human-aligned evaluation of multimodal realism. Our end-to-end framework explicitly captures the rich, multimodal distribution of plausible future behaviors using a compact GMM-based diffusion model, achieving state-of-the-art performance across both error-based and distributional metrics.</p>
+              </td>
+            </tr>
+          </tbody></table>
+
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr onmouseout="nuvo_stop()" onmouseover="nuvo_start()">
               <td style="padding:20px;width:25%;vertical-align:middle">
